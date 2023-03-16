@@ -1,6 +1,6 @@
-# GPT_ChatHist :smiley:
+# GPT_ChatHist 
 
-Hello, thank you for being here! GPT_ChatHist is a small app that allows you to interact with OpenAI's GPT-3.5-turbo through a local web interface. The app saves dialogue history, enabling you to resume conversations effortlessly.
+Hello :smiley:, thank you for being here! GPT_ChatHist is a small app that allows you to interact with OpenAI's GPT-3.5-turbo through a local web interface. The app saves dialogue history, enabling you to resume conversations effortlessly.
 
 ## Why it can be useful
 
