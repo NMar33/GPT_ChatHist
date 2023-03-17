@@ -2,13 +2,19 @@ from flask import Flask, render_template, request, redirect, url_for, flash
 import openai
 import os
 import json
+import yaml
 
 # SETTINGS
-OPEN_API_KEY = "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"
-SECRET_KEY = "1234"
-PATH_HIST_FOLDER = "chat_history/"
-MAX_TOKENS = 500
-TEMPERATURE = 0.5
+CONFIG_FILE = "config.yaml"
+
+with open(CONFIG_FILE, "r") as f:
+    configs = yaml.safe_load(f)
+
+OPEN_API_KEY = configs["OPEN_API_KEY"]
+SECRET_KEY = configs["SECRET_KEY"]
+PATH_HIST_FOLDER = configs["PATH_HIST_FOLDER"]
+MAX_TOKENS = configs["MAX_TOKENS"]
+TEMPERATURE = configs["TEMPERATURE"]
 
 app = Flask(__name__)
 app.secret_key = SECRET_KEY

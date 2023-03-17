@@ -32,7 +32,7 @@ python -m venv .venv
 ```
 pip install -r requirements.txt
 ```
-5. Change `OPEN_API_KEY` in `Settings.yaml` to your OpenAI API Key
+5. Change `OPEN_API_KEY` in `config.yaml` to your OpenAI API Key
 If you do not have an Open AI API key, please follow the [Open AI blogpost](https://openai.com/blog/openai-api/).
 
 
