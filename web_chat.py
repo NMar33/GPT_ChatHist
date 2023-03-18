@@ -4,7 +4,7 @@ import os
 import json
 import yaml
 
-# SETTINGS
+# CONFIGS
 CONFIG_FILE = "config.yaml"
 
 with open(CONFIG_FILE, "r") as f:
