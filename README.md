@@ -1,6 +1,6 @@
 # GPT_ChatHist 
 
-Hello :smiley:, thank you for being here! GPT_ChatHist is a small app that allows you to interact with OpenAI's GPT-3.5-turbo through a local web interface. The app saves dialogue history, enabling you to resume conversations effortlessly. If you prefer a version without a web interface, check out [GPT_ChatHist_no_web](https://github.com/NMar33/GPT_ChatHist_no_web).
+Hello :smiley:, thank you for being here! GPT_ChatHist is a small app that allows you to interact with OpenAI's GPT-3.5-turbo through a local web interface. It saves your dialogue history locally, allowing you to continue multiple chat sessions. If you prefer a version without a web interface, check out [GPT_ChatHist_no_web](https://github.com/NMar33/GPT_ChatHist_no_web).
 
 ## Why it can be useful
 
